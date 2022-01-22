@@ -1,0 +1,16 @@
+CACHE MANIFEST 
+# v2.8.4 Self-Host 
+
+index.html
+Style.css
+/jailbreak_files/logo.jpg
+/jailbreak_files/utils.js
+/jailbreak_files/userland.js
+/jailbreak_files/rop.js
+/jailbreak_files/ps4.js
+/jailbreak_files/int64.js
+/jailbreak_files/goldhen702v2b.js
+/jailbreak_files/jb.html
+
+NETWORK:
+*

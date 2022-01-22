@@ -1,0 +1,44 @@
+<html manifest="offlinexmb.cache">
+<head>
+<meta charset="utf-8">
+<title>Iconique PS4 Jailbreak</title>
+<style>
+	.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+</style>
+<link rel="stylesheet prefetch" href="Style.css">
+    <script>
+        document.cookie = 'kex=1';
+    </script>
+<script>
+function DLProgress(e){
+	parent.ScrOverlay.style.display="block";parent.MyItems.style.display="none";
+	Percent=(Math.round(e.loaded / e.total * 100));
+	parent.cacheUPDtxt.innerHTML="Installing Offline Cache: " + Percent + "%";
+	parent.CacheBar.style.width=Percent + '%';
+}
+function DisplayCacheProgress(){
+	setTimeout(function(){parent.cacheUPDtxt.innerHTML="Cache Installed Successfully.Turn off Internet & Reopen the Browser!!";},1000);}
+	window.applicationCache.addEventListener("progress",DLProgress,false);
+	window.applicationCache.oncached=function(e){DisplayCacheProgress();};
+	window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+	window.applicationCache.onerror=function(e){parent.cacheUPDtxt.innerHTML="Error Installing Cache";
+};
+</script>
+</head>
+<body class="bg-darker" style='background-color:#1A1920'>
+<div id=ScrOverlay class=cacheUPDbg><pre id=cacheUPDtxt class=cacheUPD></pre>
+<div id=CacheProgress><div id=CacheBar></div></div></div>
+<h1 style='font-size:25px;text-align:center;text-shadow: 4px 4px 4px black;color:yellow;'>Iconique Computer PS4 7.02 Jailbreak</h1>
+<h1 id=msgs2 style='font-size:25px;text-align:center;text-shadow: 4px 4px 4px black;color:white;'>Status</h1>
+<div style="text-align:center"  id="MyItems">
+<a href="./jailbreak_files/jb.html"><button style='font-size:22px;text-align:center;text-shadow: 4px 4px 4px black;color:#CEC52A' class="pointer"; onmouseout="msgs2.innerHTML='Status'"  type="button"><B>Click Here!!</B></button></a>
+<br><br>
+<h1 style="text-shadow: 4px 4px 4px black;font-size:30px;text-align:center;text-shadow: 4px 4px 4px black;color:yellow;">Please Contact : 070 209 309 / 092 209 309 if you have any issue.</h1>
+<img src="./jailbreak_files/logo.jpg" class="center">
+</body>
+</html>
